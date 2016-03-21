@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  margin: 0;
+  text-align: center;
 }
 
 img {
@@ -45,8 +45,8 @@ img:nth-child(even) {
 @media only screen and (min-width: 38em) {
 
   img {
-    display: inline-block;
-    width: 30%;
+    text-align: center;
+    width: 32%;
   }
 
   img:first-child {
@@ -62,5 +62,6 @@ img:nth-child(even) {
 
   img {
     width: 24%;
+    padding: 0 0 0 .5em;
   }
 }
